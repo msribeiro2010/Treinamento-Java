@@ -15,7 +15,7 @@ public class Main {
   }
 
   static void imprimirTabuada(int multiplicando, int multiplicador) {
-
+    // tabuada apenas até 10
     if (multiplicador <= 10) {
       System.out.println(multiplicando + " x " + multiplicador + " = " + (multiplicando * multiplicador));
       imprimirTabuada(multiplicando, multiplicador + 1);
